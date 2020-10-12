@@ -1,0 +1,122 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  font-family: 'Montserrat',sans-serif;
+}
+
+
+.main-section{
+  height: 120vh;
+  background-color: skyblue;
+  background: url("./Images/quem-somos.png") no-repeat center center ;
+  background-size: 100% 100%;
+  display: block;
+  position: relative;
+}
+.servicos-section {
+  height: 100vh;
+  background-color: tomato;
+  background: url('./Images/servicos.png') no-repeat center center;
+  background-size: 100% 100%;
+  display: block;
+  position: relative;
+}
+
+.depoimentos-section {
+  height: 100vh;
+  background-color: tomato;
+  background: url('./Images/depoimentos.png') no-repeat center center;
+  background-size: 100% 100%;
+  display: block;
+  position: relative;
+}
+
+
+.comecando-section {
+  height: 120vh;
+  background-color: mediumpurple;
+  background: url('./Images/comecando.png') no-repeat center center;
+  background-size: 100% 100%;
+  display: block;
+  position: relative;
+}
+
+
+
+.sac-section {
+  height: 100vh;
+  background-color: tomato;
+  background: url('./Images/sac.png') no-repeat center center;
+  background-size: 100% 100%;
+  display: block;
+  position: relative;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  *{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
+  }
+  
+  
+  .main-section{
+    height: 120vh;
+    background-color: skyblue;
+    background: url("./Images/quem-somos-mobile.png") no-repeat center center ;
+    background-size: 100% 100%;
+    display: block;
+    position: relative;
+  }
+  .servicos-section {
+    height: 100vh;
+    background-color: tomato;
+    background: url('./Images/servicos-mobile.png') no-repeat center center;
+    background-size: 100% 100%;
+    display: block;
+    position: relative;
+  }
+  
+  .depoimentos-section {
+    height: 100vh;
+    background-color: tomato;
+    background: url('./Images/depoimentos-mobile.png') no-repeat center center;
+    background-size: 100% 100%;
+    display: block;
+    position: relative;
+  }
+  
+  
+  .comecando-section {
+    height: 120vh;
+    background-color: mediumpurple;
+    background: url('./Images/comecando-mobile.png') no-repeat center center;
+    background-size: 100% 100%;
+    display: block;
+    position: relative;
+  }
+  
+  .operation-section {
+    height: 100vh;
+    background: url('./Images/sac-mobile.png') no-repeat center center;
+    background-size: 100% 100%;
+    display: block;
+    position: relative;
+  }
+  
+  
+  .sac-section {
+    height: 100vh;
+    background-color: tomato;
+    background: url('./Images/sac-mobile.png') no-repeat center center;
+    background-size: 100% 100%;
+    display: block;
+    position: relative;
+  }
+  
+
+}
